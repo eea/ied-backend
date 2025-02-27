@@ -1,4 +1,4 @@
-# Biodiversity backend (Plone 6)
+# IED backend (Plone 6)
 
 Plone 6 backend for Biodiversity website. See also [Plone 6 frontend for Biodiversity website](https://github.com/eea/ied-frontend).
 
