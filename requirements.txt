@@ -1,0 +1,8 @@
+
+eea.dexterity.indicators
+eea.dexterity.themes
+eea.progress.workflow
+eea.coremetadata
+eea.restapi
+ied.content
+eea.api.dataconnector

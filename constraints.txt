@@ -1,0 +1,8 @@
+-f https://eggrepo.eea.europa.eu/simple/
+eea.progress.workflow==3.0
+eea.coremetadata==5.1
+eea.api.dataconnector==11.0
+bise.content==1.3
+mo-sql-parsing==9.376.23121
+mo-parsing==8.376.23121
+XlsxWriter==3.1.0
