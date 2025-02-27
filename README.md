@@ -1,10 +1,10 @@
 # IED backend (Plone 6)
 
-Plone 6 backend for Biodiversity website. See also [Plone 6 frontend for Biodiversity website](https://github.com/eea/ied-frontend).
+Plone 6 backend for IED website. See also [Plone 6 frontend for IED website](https://github.com/eea/ied-frontend).
 
 ## Getting started
 
-See [Plone 6 frontend for Biodiversity website](https://github.com/eea/ied-frontend)
+See [Plone 6 frontend for IED website](https://github.com/eea/ied-frontend)
 
 ## Try it using Docker
 
