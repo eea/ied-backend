@@ -26,7 +26,7 @@ We use [Docker](https://www.docker.com/), [Rancher](https://rancher.com/) and [J
 ### Deploy
 
 - Within `Rancher > Catalog > EEA` deploy [IED Website - Backend](https://github.com/eea/eea.rancher.catalog/tree/master/templates/ied-backend)
-- Within `Rancher > Catalog > EEA` deploy [IED Website - Frontend](https://github.com/eea/eea.rancher.catalog/tree/master/templates/eea-website-frontend)
+- Within `Rancher > Catalog > EEA` deploy [IED Website - Frontend](https://github.com/eea/eea.rancher.catalog/tree/master/templates/ied-frontend)
 
 ### Upgrade
 
