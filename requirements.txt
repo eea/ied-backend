@@ -1,5 +1,4 @@
 eea.progress.editing
 eea.progress.workflow
-eea.website.policy
 eea.api.versions
 Products.CMFEditions
