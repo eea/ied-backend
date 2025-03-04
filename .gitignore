@@ -1,0 +1,13 @@
+bin/
+constraints-mxdev.txt
+include/
+__pycache__/
+inituser
+lib/
+lib64
+pyvenv.cfg
+requirements-mxdev.txt
+share/
+sources/
+var/
+*~

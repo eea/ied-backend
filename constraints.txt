@@ -1,0 +1,11 @@
+-f https://eggrepo.eea.europa.eu/simple/
+eea.progress.editing==2.0
+eea.progress.workflow==3.0
+eea.stringinterp==1.1
+eea.website.policy==4.0
+eea.api.versions==1.1
+mo-sql-parsing==9.367.23090
+mo-parsing==8.366.23085
+XlsxWriter==3.0.9
+Products.CMFEditions==4.0.2
+plone.autoinclude==2.0.0

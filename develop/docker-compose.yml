@@ -1,0 +1,51 @@
+version: "3"
+
+services:
+  memcached:
+    image: memcached:1.6.10
+    ports:
+    - "11211:11211"
+    restart: unless-stopped
+    command:
+    - "-m"
+    - "1024"
+    - "-I"
+    - "500m"
+
+  postgres:
+    image: eeacms/postgres:14.7-1.0
+    ports:
+    - "5432:5432"
+    environment:
+      POSTGRES_CONFIG: max_connections = 150
+      POSTGRES_DBNAME: eea
+      POSTGRES_DBPASS: zope
+      POSTGRES_DBUSER: zope
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      TZ: Europe/Bucharest
+    volumes:
+    - postgres_dump:/postgresql.backup
+    - postgres_data:/var/lib/postgresql/data
+    - postgres_archive:/var/lib/postgresql/archive
+
+  pgadmin:
+    image: dpage/pgadmin4
+    ports:
+    - "5050:80"
+    depends_on:
+    - postgres
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "alin@eaudeweb.ro"
+      PGADMIN_DEFAULT_PASSWORD: "alin"
+
+  mailtrap:
+    image: eaudeweb/mailtrap
+    ports:
+    - "8888:80"
+    - "2525:25"
+
+volumes:
+  postgres_data: {}
+  postgres_dump: {}
+  postgres_archive: {}

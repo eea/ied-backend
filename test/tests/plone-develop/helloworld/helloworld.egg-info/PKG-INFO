@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: helloworld
+Version: 0.1
+Summary: Hello World
+Home-page: https://github.com/plone/plone-backend
+Author: Plone
+License: GPL version 2
+Platform: UNKNOWN
+Provides-Extra: test
+
+UNKNOWN
+
