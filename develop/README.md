@@ -1,6 +1,6 @@
 # IED Website backend (Plone 6)
 
-Plone 6 backend for IED Website. See also [Plone 6 frontend for IED Website](https://github.com/eea/eea-website-frontend)
+Plone 6 backend for IED Website. See also [Plone 6 frontend for IED Website](https://github.com/eea/ied-frontend)
 
 ## Documentation
 
