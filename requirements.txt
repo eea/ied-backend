@@ -1,5 +1,6 @@
 eea.progress.editing
 eea.progress.workflow
+eea.api.dataconnector
 eea.api.versions
 Products.CMFEditions
 collective.volto.subsites
