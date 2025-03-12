@@ -6,8 +6,8 @@ pipeline {
     GIT_NAME = "ied-backend"
     SONARQUBE_TAG = 'www.ied.eea.europa.eu-en'
     SONARQUBE_TAG_DEMO = 'demo-ied.eea.europa.eu'   
-    RANCHER_STACKID = "1st2567"
-    RANCHER_ENVID = "1a140884"
+    RANCHER_STACKID = ""
+    RANCHER_ENVID = ""
     template = "templates/ied-backend"
   }
 
@@ -53,6 +53,9 @@ pipeline {
     stage('Upgrade demo ( on tag )') {
       when {
         buildingTag()
+        not {
+          environment name: 'RANCHER_STACKID', value: ''
+        }
       }
       steps {
         node(label: 'docker') {
