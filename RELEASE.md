@@ -4,7 +4,7 @@
 
 #### Release flow
 
-The release flow on Plone projects is split in two Jenkins jobs:
+The release flow on Plone projects is split in 2 Jenkins jobs:
 
 - A job that runs on every commit on master and creates a production ready GitHub release and tag
 - A job that runs on every new tag (including the one created in the first job):
