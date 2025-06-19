@@ -1,6 +1,18 @@
 # Changelog
 
 
+## [6.0.15-21](https://github.com/eea/ied-backend/releases/tag/6.0.15-21) - 2025-06-19T23:12:48Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.15-10 ~ 6.0.15-11 
+
+##### eeacms/plone-backend:[6.0.15-11](https://github.com/eea/plone-backend/releases/tag/6.0.15-11)
+###### Dependency updates
+
+###### [eea.api.glossary](https://pypi.org/project/eea.api.glossary/#changelog): 1.2 ~ 1.5
+
+
 ## [6.0.15-20](https://github.com/eea/ied-backend/releases/tag/6.0.15-20) - 2025-06-18T23:12:20Z
 
 ### Plone
