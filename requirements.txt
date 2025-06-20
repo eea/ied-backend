@@ -4,3 +4,4 @@ eea.api.dataconnector
 eea.api.versions
 Products.CMFEditions
 collective.volto.subsites
+eea.plotly
