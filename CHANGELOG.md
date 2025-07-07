@@ -1,6 +1,12 @@
 # Changelog
 
 
+## [6.0.15-31](https://github.com/eea/ied-backend/releases/tag/6.0.15-31) - 2025-07-07T23:13:06Z
+
+### Internal
+
+- Update Dockerfile - [dobri1408 -  [`8b2d337`](https://github.com/eea/ied-backend/commit/8b2d33764bfa5e9ee908dea211e53541c6fc2cb3)]
+
 ## [6.0.15-30](https://github.com/eea/ied-backend/releases/tag/6.0.15-30) - 2025-07-06T23:13:34Z
 
 ### Internal
