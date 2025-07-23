@@ -1,6 +1,23 @@
 # Changelog
 
 
+## [6.0.15-47](https://github.com/eea/ied-backend/releases/tag/6.0.15-47) - 2025-07-23T23:42:07Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.15-11 ~ 6.0.15-12 
+
+##### eeacms/plone-backend:[6.0.15-12](https://github.com/eea/plone-backend/releases/tag/6.0.15-12)
+###### Dependency updates
+
+###### [pas.plugins.eea](https://pypi.org/project/pas.plugins.eea/#changelog): 1.4 ~ 1.5
+
+### Internal
+
+- Update Dockerfile - [dobri1408 -  [`8b2d337`](https://github.com/eea/ied-backend/commit/8b2d33764bfa5e9ee908dea211e53541c6fc2cb3)]
+- Update Dockerfile - [dobri1408 -  [`f2a1a64`](https://github.com/eea/ied-backend/commit/f2a1a641684c18cb4b3f17d1d9941f21dec6e8ff)]
+- Update Dockerfile - [dobri1408 -  [`568510f`](https://github.com/eea/ied-backend/commit/568510f2a17b8460a7cdb3cffd6c72e7590a492d)]
+
 ## [6.0.15-46](https://github.com/eea/ied-backend/releases/tag/6.0.15-46) - 2025-07-22T23:15:03Z
 
 ### Internal
