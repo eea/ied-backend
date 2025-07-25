@@ -8,3 +8,4 @@ mo-parsing==8.366.23085
 XlsxWriter==3.0.9
 Products.CMFEditions==4.0.2
 plone.autoinclude==2.0.0
+collective.regenv==1.0.0
