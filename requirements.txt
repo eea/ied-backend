@@ -5,3 +5,4 @@ eea.api.versions
 Products.CMFEditions
 collective.volto.subsites
 eea.plotly
+collective.regenv
