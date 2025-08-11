@@ -1,6 +1,42 @@
 # Changelog
 
 
+## [6.0.15-61](https://github.com/eea/ied-backend/releases/tag/6.0.15-61) - 2025-08-11T23:44:59Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.15-12 ~ 6.0.15-16 
+
+##### eeacms/plone-backend:[6.0.15-16](https://github.com/eea/plone-backend/releases/tag/6.0.15-16)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 8.1 ~ 8.2
+
+* Change: Release with an older python 3 version
+ [valentinab25]
+##### eeacms/plone-backend:[6.0.15-15](https://github.com/eea/plone-backend/releases/tag/6.0.15-15)
+###### Internal
+
+- the username is not eeacms - [valentinab25 - [`38093a9`](https://github.com/eea/plone-backend/commit/38093a9f5222ec3642c79fb65ebf12e836da7009)]
+##### eeacms/plone-backend:[6.0.15-14](https://github.com/eea/plone-backend/releases/tag/6.0.15-14)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 8.0 ~ 8.1
+
+* Change: fix(upgrade): for images, allowing also to run @@image-migrate script
+ [ichim-david]
+##### eeacms/plone-backend:[6.0.15-13](https://github.com/eea/plone-backend/releases/tag/6.0.15-13)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 7.2 ~ 8.0
+
+* Create method to update all backend:8080 to resolveuid
+ [dobri1408 - refs #290024]
+* Feature: added migration script for `item`, `teaser` and `hero`
+ to new attachedimage array of object like object_browser widget
+ [ichim-david refs #254622]
+
+
 ## [6.0.15-60](https://github.com/eea/ied-backend/releases/tag/6.0.15-60) - 2025-08-10T23:14:12Z
 
 ### Plone
