@@ -1,6 +1,21 @@
 # Changelog
 
 
+## [6.0.15-65](https://github.com/eea/ied-backend/releases/tag/6.0.15-65) - 2025-08-20T16:56:37Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.15-16 ~ 6.0.15-17 
+
+##### eeacms/plone-backend:[6.0.15-17](https://github.com/eea/plone-backend/releases/tag/6.0.15-17)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 8.2 ~ 8.3
+
+* Change: Release
+ [dobri1408]
+
+
 ## [6.0.15-64](https://github.com/eea/ied-backend/releases/tag/6.0.15-64) - 2025-08-20T16:16:13Z
 
 ### Plone
