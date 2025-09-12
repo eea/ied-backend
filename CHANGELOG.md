@@ -1,6 +1,28 @@
 # Changelog
 
 
+## [6.0.15-92](https://github.com/eea/ied-backend/releases/tag/6.0.15-92) - 2025-09-12T23:14:31Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.15-16 ~ 6.0.15-18 
+
+##### eeacms/plone-backend:[6.0.15-18](https://github.com/eea/plone-backend/releases/tag/6.0.15-18)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 8.3 ~ 8.4
+
+* Change: feat: Control Navigation Settings TTW - refs #288509
+ [avoinea]
+##### eeacms/plone-backend:[6.0.15-17](https://github.com/eea/plone-backend/releases/tag/6.0.15-17)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 8.2 ~ 8.3
+
+* Change: Release
+ [dobri1408]
+
+
 ## [6.0.15-91](https://github.com/eea/ied-backend/releases/tag/6.0.15-91) - 2025-09-11T23:15:59Z
 
 ### Plone
