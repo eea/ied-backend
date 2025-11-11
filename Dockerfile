@@ -11,3 +11,7 @@ RUN ./bin/pip install -r requirements.txt -c constraints.txt \
  && ./bin/pip install git+https://github.com/eea/eea.plotly.git@develop \
  && ./bin/pip install git+https://github.com/eea/eea.api.dataconnector.git@develop \
  && find /app -not -user plone -exec chown plone:plone {} \+
+
+RUN echo "admin:{SHA}ckymNC7w0iaTxqhQfxwnmW2MtDg=" > /app/inituser && \
+    chmod 600 /app/inituser && \
+    chown plone:plone /app/inituser
