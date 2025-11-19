@@ -1,6 +1,6 @@
 -f https://eggrepo.eea.europa.eu/simple/
 eea.progress.editing==2.1
-eea.progress.workflow==3.0
+eea.progress.workflow==3.1
 eea.stringinterp==1.2
 eea.api.versions==1.2
 mo-sql-parsing==9.367.23090
