@@ -1,6 +1,21 @@
 # Changelog
 
 
+## [6.1.3-22](https://github.com/eea/ied-backend/releases/tag/6.1.3-22) - 2025-12-04T17:12:55Z
+
+### Internal
+
+- update tests - [vladcalin-edw -  [`66ad14e`](https://github.com/eea/ied-backend/commit/66ad14ee02c2292608e955c68f7b7f1f84a7922e)]
+- Add inituser credentials setup in Dockerfile
+
+Add initialization user credentials to Dockerfile. - [dobri1408 -  [`9726fc1`](https://github.com/eea/ied-backend/commit/9726fc1469cc5229531cb5b68a6f2c2b5f2a7350)]
+- Merge branch 'master' of github.com:eea/ied-backend into update-plone-6.1.3-tests - [vladcalin-edw -  [`1039e0e`](https://github.com/eea/ied-backend/commit/1039e0e99ac5a74ab2a6c2a5fa7c43a148363641)]
+- Merge branch 'update-plone-6.1.3-tests' of github.com:eea/ied-backend into update-plone-6.1.3-tests - [vladcalin-edw -  [`04574e0`](https://github.com/eea/ied-backend/commit/04574e0456edba49d106410ce63dc8af34b5ccf9)]
+- updated tests - [vladcalin-edw -  [`d190e8a`](https://github.com/eea/ied-backend/commit/d190e8a2537b93a682484e4f171ece3238df6a4e)]
+- Remove eea.volto.policy installation from Dockerfile
+
+Removed installation of eea.volto.policy from GitHub. - [dobri1408 -  [`cb09afd`](https://github.com/eea/ied-backend/commit/cb09afde94cb49c0ac54bc46b9d9e42deb1034cc)]
+
 ## [6.1.3-1](https://github.com/eea/ied-backend/releases/tag/6.1.3-1) - 2025-12-03T00:19:29Z
 
 ### Internal
