@@ -1,4 +1,4 @@
-FROM eeacms/plone-backend:6.1.3-9
+FROM eeacms/plone-backend:6.1.3-10
 
 # Custom plone.volto version fixes for:
 # https://taskman.eionet.europa.eu/issues/284346#note-8
