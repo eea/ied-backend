@@ -1,6 +1,62 @@
 # Changelog
 
 
+## [6.1.3-41](https://github.com/eea/ied-backend/releases/tag/6.1.3-41) - 2025-12-23T00:54:28Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.3-6 ~ 6.1.3-10 
+
+##### eeacms/plone-backend:[6.1.3-10](https://github.com/eea/plone-backend/releases/tag/6.1.3-10)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 11.1 ~ 11.2
+
+* Fix: Index image scales with relative_path to context
+ [avoinea - refs #295495]
+##### eeacms/plone-backend:[6.1.3-9](https://github.com/eea/plone-backend/releases/tag/6.1.3-9)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 11.0 ~ 11.1
+
+* Fix: Handle NoInteraction during inherited field lookup in indexing
+ [avoinea - refs #295495]
+##### eeacms/plone-backend:[6.1.3-8](https://github.com/eea/plone-backend/releases/tag/6.1.3-8)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 10.0 ~ 11.0
+
+* Feature: Inheritable fields, for example inherit preview_image from parent if context doesn't have a preview_image
+ [razvanMiu - refs #295495]
+##### eeacms/plone-backend:[6.1.3-7](https://github.com/eea/plone-backend/releases/tag/6.1.3-7)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 9.3 ~ 10.0
+
+###### What's Changed
+* Advanced restricted block by @tedw87 in https://github.com/eea/eea.volto.policy/pull/88
+* Release 10.0 by @avoinea in https://github.com/eea/eea.volto.policy/pull/89
+
+
+**Full Changelog**: https://github.com/eea/eea.volto.policy/compare/9.3...10.0
+
+###### Internal
+
+- Release eea.volto.policy 10.0 - [Alin Voinea - [`505df34`](https://github.com/eea/plone-backend/commit/505df34459a3c50cf98ad63cdc4a6abe6f6c9c70)]
+
+### Internal
+
+- update tests - [vladcalin-edw -  [`66ad14e`](https://github.com/eea/ied-backend/commit/66ad14ee02c2292608e955c68f7b7f1f84a7922e)]
+- Add inituser credentials setup in Dockerfile
+
+Add initialization user credentials to Dockerfile. - [dobri1408 -  [`9726fc1`](https://github.com/eea/ied-backend/commit/9726fc1469cc5229531cb5b68a6f2c2b5f2a7350)]
+- Merge branch 'master' of github.com:eea/ied-backend into update-plone-6.1.3-tests - [vladcalin-edw -  [`1039e0e`](https://github.com/eea/ied-backend/commit/1039e0e99ac5a74ab2a6c2a5fa7c43a148363641)]
+- Merge branch 'update-plone-6.1.3-tests' of github.com:eea/ied-backend into update-plone-6.1.3-tests - [vladcalin-edw -  [`04574e0`](https://github.com/eea/ied-backend/commit/04574e0456edba49d106410ce63dc8af34b5ccf9)]
+- updated tests - [vladcalin-edw -  [`d190e8a`](https://github.com/eea/ied-backend/commit/d190e8a2537b93a682484e4f171ece3238df6a4e)]
+- Remove eea.volto.policy installation from Dockerfile
+
+Removed installation of eea.volto.policy from GitHub. - [dobri1408 -  [`cb09afd`](https://github.com/eea/ied-backend/commit/cb09afde94cb49c0ac54bc46b9d9e42deb1034cc)]
+
 ## [6.1.3-40](https://github.com/eea/ied-backend/releases/tag/6.1.3-40) - 2025-12-22T10:15:47Z
 
 ### Plone
