@@ -1,6 +1,33 @@
 # Changelog
 
 
+## [6.1.3-50](https://github.com/eea/ied-backend/releases/tag/6.1.3-50) - 2026-01-28T14:20:52Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.3-10 ~ 6.1.3-11 
+
+##### eeacms/plone-backend:[6.1.3-11](https://github.com/eea/plone-backend/releases/tag/6.1.3-11)
+###### Dependency updates
+
+###### Downgrades 
+
+###### [pas.plugins.eea](https://pypi.org/project/pas.plugins.eea/#changelog): 1.6 ~ 1.5
+
+###### Internal
+
+- Revert pas.plugins.eea to previous version - [Teodor - [`c6f89e2`](https://github.com/eea/plone-backend/commit/c6f89e2c0e0e8e71cf5250791c38f84f3cf54a6a)]
+
+### Dependency updates
+
+#### New packages
+
+##### [eea.plotly](https://github.com/eea/eea.plotly): 2.2
+
+### Internal
+
+- Add eea.plotly to constraints - [Teodor -  [`9ca5cf0`](https://github.com/eea/ied-backend/commit/9ca5cf004884e292d5646c1829d0263e7929a346)]
+
 ## [6.1.3-48](https://github.com/eea/ied-backend/releases/tag/6.1.3-48) - 2025-12-30T00:18:54Z
 
 ### Plone
