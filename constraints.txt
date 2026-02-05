@@ -11,3 +11,4 @@ XlsxWriter==3.0.9
 Products.CMFEditions==4.0.2
 plone.autoinclude==2.0.0
 collective.regenv==1.0.0
+pas.plugins.eea==1.6
