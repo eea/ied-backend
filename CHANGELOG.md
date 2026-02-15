@@ -1,6 +1,31 @@
 # Changelog
 
 
+## [6.1.3-](https://github.com/eea/ied-backend/releases/tag/6.1.3-) - 2026-02-15T00:21:10Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.3-11 ~ 6.1.3-12 
+
+##### eeacms/plone-backend:[6.1.3-12](https://github.com/eea/plone-backend/releases/tag/6.1.3-12)
+###### Dependency updates
+
+###### [pas.plugins.eea](https://pypi.org/project/pas.plugins.eea/#changelog): 1.5 ~ 1.7
+
+### Dependency updates
+
+#### New packages
+
+##### [pas.plugins.eea](https://pypi.org/project/pas.plugins.eea/#changelog): 1.6
+
+### Internal
+
+- Add pas.plugins.eea dependency version 1.6 - [dobri1408 -  [`820f766`](https://github.com/eea/ied-backend/commit/820f76695ac2e4a9585269a871ca330a542cb6cc)]
+- Update Dockerfile to install specific dependencies - [dobri1408 -  [`c6178b4`](https://github.com/eea/ied-backend/commit/c6178b44f9efa440418a8e5ab5fab3abb836799d)]
+- Update pip install command for pas.plugins.eea - [dobri1408 -  [`9737749`](https://github.com/eea/ied-backend/commit/97377496d9d5fa42add629f8346b1f490715720e)]
+- Fix installation command in Dockerfile - [dobri1408 -  [`cf86e67`](https://github.com/eea/ied-backend/commit/cf86e67b13af6f8c228b9922492c949c17d0c40f)]
+- Remove installation of specific git dependency - [dobri1408 -  [`9ca842f`](https://github.com/eea/ied-backend/commit/9ca842f572705e4b194eea17a2ad63e9a781173f)]
+
 ## [6.1.3-](https://github.com/eea/ied-backend/releases/tag/6.1.3-) - 2026-02-14T00:19:44Z
 
 ### Plone
