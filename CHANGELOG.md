@@ -1,6 +1,22 @@
 # Changelog
 
 
+## [6.1.3-53](https://github.com/eea/ied-backend/releases/tag/6.1.3-53) - 2026-03-07T01:09:34Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.3-14 ~ 6.1.3-15 
+
+##### eeacms/plone-backend:[6.1.3-15](https://github.com/eea/plone-backend/releases/tag/6.1.3-15)
+###### Dependency updates
+
+###### [collective.taxonomy](https://pypi.org/project/collective.taxonomy/#changelog): 3.1.7 ~ 3.1.8dev1
+
+###### Internal
+
+- Patch release collective.taxonomy 3.1.8dev1 - refs #285635 - [Alin Voinea - [`4b2a920`](https://github.com/eea/plone-backend/commit/4b2a9206481b84bf70fed0b9c830ce63ad35b78d)]
+
+
 ## [6.1.3-52](https://github.com/eea/ied-backend/releases/tag/6.1.3-52) - 2026-03-05T01:21:01Z
 
 ### Plone
