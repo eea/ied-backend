@@ -1,6 +1,21 @@
 # Changelog
 
 
+## [6.1.3-58](https://github.com/eea/ied-backend/releases/tag/6.1.3-58) - 2026-04-18T00:17:40Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.3-19 ~ 6.1.3-20 
+
+##### eeacms/plone-backend:[6.1.3-20](https://github.com/eea/plone-backend/releases/tag/6.1.3-20)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 12.1 ~ 12.2
+
+* Change: update default registry
+ [razvanMiu]
+
+
 ## [6.1.3-57](https://github.com/eea/ied-backend/releases/tag/6.1.3-57) - 2026-04-17T00:15:30Z
 
 ### Plone
