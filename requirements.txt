@@ -1,8 +1,9 @@
 eea.progress.editing
 eea.progress.workflow
-eea.api.dataconnector
 eea.api.versions
 Products.CMFEditions
 collective.volto.subsites
 eea.plotly
 collective.regenv
+-e git+https://github.com/eea/eea.api.dataconnector.git@caching#egg=eea.api.dataconnector
+-e git+https://github.com/eea/eea.ied.policy.git@master#egg=eea.ied.policy
