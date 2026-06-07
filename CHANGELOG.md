@@ -1,6 +1,19 @@
 # Changelog
 
 
+## [6.1.4-10](https://github.com/eea/ied-backend/releases/tag/6.1.4-10) - 2026-06-07T23:40:12Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-5 
+
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+
 ## [6.1.4-9](https://github.com/eea/ied-backend/releases/tag/6.1.4-9) - 2026-06-06T23:39:52Z
 
 ### Plone
