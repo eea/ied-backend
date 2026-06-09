@@ -1,6 +1,27 @@
 # Changelog
 
 
+## [6.1.4-11](https://github.com/eea/ied-backend/releases/tag/6.1.4-11) - 2026-06-09T23:42:35Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-5 
+
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+
 ## [6.1.4-10](https://github.com/eea/ied-backend/releases/tag/6.1.4-10) - 2026-06-07T23:40:12Z
 
 ### Plone
