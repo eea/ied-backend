@@ -1,6 +1,22 @@
 # Changelog
 
 
+## [6.1.4-37](https://github.com/eea/ied-backend/releases/tag/6.1.4-37) - 2026-07-11T00:40:21Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-9 ~ 6.1.4-10 
+
+##### eeacms/plone-backend:[6.1.4-10](https://github.com/eea/plone-backend/releases/tag/6.1.4-10)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.1 ~ 13.2
+
+* Fix: Delegate to collective.exportimport's image serializers when one of its
+ export markers is present on the request.
+ [claudiaifrim - refs #304938]
+
+
 ## [6.1.4-36](https://github.com/eea/ied-backend/releases/tag/6.1.4-36) - 2026-07-07T13:51:34Z
 
 ### Plone
