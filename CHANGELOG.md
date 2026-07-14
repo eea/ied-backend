@@ -1,6 +1,26 @@
 # Changelog
 
 
+## [6.1.4-39](https://github.com/eea/ied-backend/releases/tag/6.1.4-39) - 2026-07-14T23:45:12Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-11 ~ 6.1.4-12 
+
+##### eeacms/plone-backend:[6.1.4-12](https://github.com/eea/plone-backend/releases/tag/6.1.4-12)
+###### Dependency updates
+
+###### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 6.1 ~ 6.2
+
+* Change: Replace the generated Publication type taxonomy field with the
+ dedicated ``publication_type`` behavior and migrate its catalog and
+ search configuration.
+ [dobri1408]
+
+### Internal
+
+- fix: Add betterleaks github action - refs #304517 - [dobri1408 -  [`e1c4df6`](https://github.com/eea/ied-backend/commit/e1c4df6bfdbe8343db56ed7d07770533ee98293f)]
+
 ## [6.1.4-38](https://github.com/eea/ied-backend/releases/tag/6.1.4-38) - 2026-07-14T00:42:37Z
 
 ### Plone
