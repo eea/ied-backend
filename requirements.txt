@@ -2,7 +2,10 @@ eea.progress.editing
 eea.progress.workflow
 eea.api.dataconnector
 eea.api.versions
+eea.virtualpages
+eea.volto.policy
 Products.CMFEditions
 collective.volto.subsites
 eea.plotly
 collective.regenv
+

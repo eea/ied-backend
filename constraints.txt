@@ -3,12 +3,14 @@ eea.progress.editing==3.2
 eea.progress.workflow==3.3
 eea.stringinterp==1.3
 eea.api.versions==1.4
+eea.virtualpages==1.0
+eea.volto.policy==13.7
 eea.api.dataconnector==13.0
 eea.plotly==2.5
 mo-sql-parsing==9.367.23090
 mo-parsing==8.366.23085
 XlsxWriter==3.0.9
-Products.CMFEditions==4.0.2
+Products.CMFEditions==4.0.2e
 plone.autoinclude==2.0.0
 collective.regenv==1.0.0
 pas.plugins.eea==1.7
