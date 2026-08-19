@@ -1,6 +1,1182 @@
 # Changelog
 
 
+## [6.1.4-43](https://github.com/eea/ied-backend/releases/tag/6.1.4-43) - 2026-08-08T00:57:34Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-15 ~ 6.1.4-16 
+
+##### eeacms/plone-backend:[6.1.4-16](https://github.com/eea/plone-backend/releases/tag/6.1.4-16)
+###### Internal
+
+- fix: arm64 image builds on github actions - [Alin Voinea - [`35cd2ff`](https://github.com/eea/plone-backend/commit/35cd2ff11bafcc6b19b5fb2425903f94acbee89b)]
+
+
+## [6.1.4-42](https://github.com/eea/ied-backend/releases/tag/6.1.4-42) - 2026-08-07T10:41:11Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-14 ~ 6.1.4-15 
+
+##### eeacms/plone-backend:[6.1.4-15](https://github.com/eea/plone-backend/releases/tag/6.1.4-15)
+###### Dependency updates
+
+###### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 6.3 ~ 6.4
+
+* Change: Release
+ [dobri1408]
+
+
+## [6.1.4-41](https://github.com/eea/ied-backend/releases/tag/6.1.4-41) - 2026-08-06T23:43:03Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-13 ~ 6.1.4-14 
+
+##### eeacms/plone-backend:[6.1.4-14](https://github.com/eea/plone-backend/releases/tag/6.1.4-14)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.3 ~ 13.4
+
+* Fix: Override ``@@download`` view to return 404 instead of TypeError (500)
+ when the content type has no primary file field.
+ [avoinea - refs #306552]
+
+
+## [6.1.4-40](https://github.com/eea/ied-backend/releases/tag/6.1.4-40) - 2026-07-29T00:53:20Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-12 ~ 6.1.4-13 
+
+##### eeacms/plone-backend:[6.1.4-13](https://github.com/eea/plone-backend/releases/tag/6.1.4-13)
+###### Dependency updates
+
+###### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 6.2 ~ 6.3
+
+* Change: Fix publication_type taxonomy vocabulary - refs #305522
+ [avoinea]
+
+
+## [6.1.4-39](https://github.com/eea/ied-backend/releases/tag/6.1.4-39) - 2026-07-14T23:45:12Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-11 ~ 6.1.4-12 
+
+##### eeacms/plone-backend:[6.1.4-12](https://github.com/eea/plone-backend/releases/tag/6.1.4-12)
+###### Dependency updates
+
+###### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 6.1 ~ 6.2
+
+* Change: Replace the generated Publication type taxonomy field with the
+ dedicated ``publication_type`` behavior and migrate its catalog and
+ search configuration.
+ [dobri1408]
+
+### Internal
+
+- fix: Add betterleaks github action - refs #304517 - [dobri1408 -  [`e1c4df6`](https://github.com/eea/ied-backend/commit/e1c4df6bfdbe8343db56ed7d07770533ee98293f)]
+
+## [6.1.4-38](https://github.com/eea/ied-backend/releases/tag/6.1.4-38) - 2026-07-14T00:42:37Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-10 ~ 6.1.4-11 
+
+##### eeacms/plone-backend:[6.1.4-11](https://github.com/eea/plone-backend/releases/tag/6.1.4-11)
+###### Dependency updates
+
+###### [eea.api.controlpanel](https://github.com/eea/eea.api.controlpanel/releases): 1.3 ~ 1.4
+
+* Change: fix: SonarQube report - refs #305404
+ [avoinea]
+
+###### [eea.api.glossary](https://pypi.org/project/eea.api.glossary/#changelog): 1.6 ~ 1.7
+
+###### [eea.api.layout](https://github.com/eea/eea.api.layout/releases): 3.4 ~ 3.5
+
+* Change: fix: SonarQube report - refs #305404
+ [avoinea]
+
+###### [eea.banner](https://github.com/eea/eea.banner/releases): 1.7 ~ 1.8
+
+* Change: fix: SonarQube report - refs #305404
+ [avoinea]
+
+###### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 6.0 ~ 6.1
+
+* Feature: Add the Publication type taxonomy, search configuration,
+ content-type behavior activation and CSV content migration report.
+ [refs #305522]
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 4.0 ~ 4.1
+
+* Change: fix: SonarQube report - refs #305404
+ [avoinea]
+
+###### [eea.kitkat](https://github.com/eea/eea.kitkat/releases): 8.4 ~ 8.5
+
+* Change: fix: SonarQube report - refs #305404
+ [avoinea]
+
+###### [eea.schema.slate](https://github.com/eea/eea.schema.slate/releases): 1.3 ~ 1.4
+
+* Change: fix: SonarQube report - refs #305404
+ [avoinea]
+
+###### [eea.sentry](https://github.com/eea/eea.sentry/releases): 3.1 ~ 3.2
+
+* Change: fix: SonarQube report - refs #305404
+ [avoinea]
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.2 ~ 13.3
+
+* Change: fix: SonarQube report - refs #305404
+ [avoinea]
+
+###### [eea.zotero](https://github.com/eea/eea.zotero/releases): 1.5 ~ 1.6
+
+* Change: fix: SonarQube report - refs #305404
+ [avoinea]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.8 ~ 12.9
+
+* Change: fix: SonarQube report - refs #305404
+  [avoinea]
+
+##### [eea.api.versions](https://github.com/eea/eea.api.versions/releases): 1.3 ~ 1.4
+
+* Change: fix: SonarQube report - refs #305404
+  [avoinea]
+
+##### [eea.plotly](https://github.com/eea/eea.plotly/releases): 2.4 ~ 2.5
+
+* Change: fix: SonarQube report - refs #305404
+  [avoinea]
+
+##### [eea.progress.editing](https://github.com/eea/eea.progress.editing/releases): 3.1 ~ 3.2
+
+* Change: fix: SonarQube report - refs #305404
+  [avoinea]
+
+##### [eea.progress.workflow](https://github.com/eea/eea.progress.workflow/releases): 3.2 ~ 3.3
+
+* Change: fix: SonarQube report - refs #305404
+  [avoinea]
+
+##### [eea.stringinterp](https://github.com/eea/eea.stringinterp/releases): 1.2 ~ 1.3
+
+* Change: fix: SonarQube report - refs #305404
+  [avoinea]
+
+
+## [6.1.4-37](https://github.com/eea/ied-backend/releases/tag/6.1.4-37) - 2026-07-11T00:40:21Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-9 ~ 6.1.4-10 
+
+##### eeacms/plone-backend:[6.1.4-10](https://github.com/eea/plone-backend/releases/tag/6.1.4-10)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.1 ~ 13.2
+
+* Fix: Delegate to collective.exportimport's image serializers when one of its
+ export markers is present on the request.
+ [claudiaifrim - refs #304938]
+
+
+## [6.1.4-36](https://github.com/eea/ied-backend/releases/tag/6.1.4-36) - 2026-07-07T13:51:34Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-8 ~ 6.1.4-9 
+
+##### eeacms/plone-backend:[6.1.4-9](https://github.com/eea/plone-backend/releases/tag/6.1.4-9)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.0 ~ 13.1
+
+* Fix: Normalize internal backend URLs (e.g. backend:8080) saved in volto blocks
+ by SSR to avoid broken links. Add unit tests for URL normalizer.
+ [razvanMiu - refs #305419]
+
+
+## [6.1.4-35](https://github.com/eea/ied-backend/releases/tag/6.1.4-35) - 2026-07-05T23:41:43Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-8 
+
+##### eeacms/plone-backend:[6.1.4-8](https://github.com/eea/plone-backend/releases/tag/6.1.4-8)
+###### Internal
+
+- use postgres 14 - [valentinab25 - [`a94bc84`](https://github.com/eea/plone-backend/commit/a94bc84848c3928f235c3667030b8041a20a06be)]
+##### eeacms/plone-backend:[6.1.4-7](https://github.com/eea/plone-backend/releases/tag/6.1.4-7)
+###### Dependency updates
+
+###### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 5.5 ~ 6.0
+
+* Feature: Add IGeoCoverageField marker interface on geo_coverage field
+ for scoped serializer adapter registration in eea.volto.policy
+ [avoinea - refs #296992]
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 3.0 ~ 4.0
+
+* Feature: Add grouped geographic coverage helper methos
+ [tedw87 - refs #296992]
+* Change: Drop Python 2.7 and Plone 4 support.
+ [avoinea - refs #296992]
+* Fix: Replace lossy latin-1 encoding with explicit PATH_SEPARATOR stripping
+ in taxonomy value normalization
+ [avoinea - refs #296992]
+* Feature: Add RAM caching (plone.memoize) to geotags, biotags and country
+ mappings taxonomy parsing
+ [avoinea - refs #296992]
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 12.7 ~ 13.0
+
+* Feature: Scope geo_coverage serializer to IGeoCoverageField marker interface
+ instead of all JSON fields. Add eea.geolocation as explicit dependency.
+ [avoinea - refs #296992]
+* Feature: Serialize grouped geographic coverage
+ [tedw87 - refs #296992]
+##### eeacms/plone-backend:[6.1.4-6](https://github.com/eea/plone-backend/releases/tag/6.1.4-6)
+###### Dependency updates
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.8 ~ 3.0
+
+* New: Add EEA40 member states group (EEA38 + Ukraine + Moldova) to
+ geotags taxonomy. Includes upgrade step for existing sites and
+ updated VDEX profile for new installations.
+ [avoinea - refs #304772]
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+### Internal
+
+- test: increase retrys on tests - [valentinab25 -  [`5e53467`](https://github.com/eea/ied-backend/commit/5e53467b006e39f568080da7ac1c2668c926c5c8)]
+
+## [6.1.4-34](https://github.com/eea/ied-backend/releases/tag/6.1.4-34) - 2026-07-01T23:30:38Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-7 
+
+##### eeacms/plone-backend:[6.1.4-7](https://github.com/eea/plone-backend/releases/tag/6.1.4-7)
+###### Dependency updates
+
+###### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 5.5 ~ 6.0
+
+* Feature: Add IGeoCoverageField marker interface on geo_coverage field
+ for scoped serializer adapter registration in eea.volto.policy
+ [avoinea - refs #296992]
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 3.0 ~ 4.0
+
+* Feature: Add grouped geographic coverage helper methos
+ [tedw87 - refs #296992]
+* Change: Drop Python 2.7 and Plone 4 support.
+ [avoinea - refs #296992]
+* Fix: Replace lossy latin-1 encoding with explicit PATH_SEPARATOR stripping
+ in taxonomy value normalization
+ [avoinea - refs #296992]
+* Feature: Add RAM caching (plone.memoize) to geotags, biotags and country
+ mappings taxonomy parsing
+ [avoinea - refs #296992]
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 12.7 ~ 13.0
+
+* Feature: Scope geo_coverage serializer to IGeoCoverageField marker interface
+ instead of all JSON fields. Add eea.geolocation as explicit dependency.
+ [avoinea - refs #296992]
+* Feature: Serialize grouped geographic coverage
+ [tedw87 - refs #296992]
+##### eeacms/plone-backend:[6.1.4-6](https://github.com/eea/plone-backend/releases/tag/6.1.4-6)
+###### Dependency updates
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.8 ~ 3.0
+
+* New: Add EEA40 member states group (EEA38 + Ukraine + Moldova) to
+ geotags taxonomy. Includes upgrade step for existing sites and
+ updated VDEX profile for new installations.
+ [avoinea - refs #304772]
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+### Internal
+
+- test: increase retrys on tests - [valentinab25 -  [`5e53467`](https://github.com/eea/ied-backend/commit/5e53467b006e39f568080da7ac1c2668c926c5c8)]
+
+## [6.1.4-33](https://github.com/eea/ied-backend/releases/tag/6.1.4-33) - 2026-06-30T23:31:05Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-7 
+
+##### eeacms/plone-backend:[6.1.4-7](https://github.com/eea/plone-backend/releases/tag/6.1.4-7)
+###### Dependency updates
+
+###### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 5.5 ~ 6.0
+
+* Feature: Add IGeoCoverageField marker interface on geo_coverage field
+ for scoped serializer adapter registration in eea.volto.policy
+ [avoinea - refs #296992]
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 3.0 ~ 4.0
+
+* Feature: Add grouped geographic coverage helper methos
+ [tedw87 - refs #296992]
+* Change: Drop Python 2.7 and Plone 4 support.
+ [avoinea - refs #296992]
+* Fix: Replace lossy latin-1 encoding with explicit PATH_SEPARATOR stripping
+ in taxonomy value normalization
+ [avoinea - refs #296992]
+* Feature: Add RAM caching (plone.memoize) to geotags, biotags and country
+ mappings taxonomy parsing
+ [avoinea - refs #296992]
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 12.7 ~ 13.0
+
+* Feature: Scope geo_coverage serializer to IGeoCoverageField marker interface
+ instead of all JSON fields. Add eea.geolocation as explicit dependency.
+ [avoinea - refs #296992]
+* Feature: Serialize grouped geographic coverage
+ [tedw87 - refs #296992]
+##### eeacms/plone-backend:[6.1.4-6](https://github.com/eea/plone-backend/releases/tag/6.1.4-6)
+###### Dependency updates
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.8 ~ 3.0
+
+* New: Add EEA40 member states group (EEA38 + Ukraine + Moldova) to
+ geotags taxonomy. Includes upgrade step for existing sites and
+ updated VDEX profile for new installations.
+ [avoinea - refs #304772]
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+### Internal
+
+- test: increase retrys on tests - [valentinab25 -  [`5e53467`](https://github.com/eea/ied-backend/commit/5e53467b006e39f568080da7ac1c2668c926c5c8)]
+
+## [6.1.4-32](https://github.com/eea/ied-backend/releases/tag/6.1.4-32) - 2026-06-30T18:18:05Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-7 
+
+##### eeacms/plone-backend:[6.1.4-7](https://github.com/eea/plone-backend/releases/tag/6.1.4-7)
+###### Dependency updates
+
+###### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 5.5 ~ 6.0
+
+* Feature: Add IGeoCoverageField marker interface on geo_coverage field
+ for scoped serializer adapter registration in eea.volto.policy
+ [avoinea - refs #296992]
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 3.0 ~ 4.0
+
+* Feature: Add grouped geographic coverage helper methos
+ [tedw87 - refs #296992]
+* Change: Drop Python 2.7 and Plone 4 support.
+ [avoinea - refs #296992]
+* Fix: Replace lossy latin-1 encoding with explicit PATH_SEPARATOR stripping
+ in taxonomy value normalization
+ [avoinea - refs #296992]
+* Feature: Add RAM caching (plone.memoize) to geotags, biotags and country
+ mappings taxonomy parsing
+ [avoinea - refs #296992]
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 12.7 ~ 13.0
+
+* Feature: Scope geo_coverage serializer to IGeoCoverageField marker interface
+ instead of all JSON fields. Add eea.geolocation as explicit dependency.
+ [avoinea - refs #296992]
+* Feature: Serialize grouped geographic coverage
+ [tedw87 - refs #296992]
+##### eeacms/plone-backend:[6.1.4-6](https://github.com/eea/plone-backend/releases/tag/6.1.4-6)
+###### Dependency updates
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.8 ~ 3.0
+
+* New: Add EEA40 member states group (EEA38 + Ukraine + Moldova) to
+ geotags taxonomy. Includes upgrade step for existing sites and
+ updated VDEX profile for new installations.
+ [avoinea - refs #304772]
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+### Internal
+
+- test: increase retrys on tests - [valentinab25 -  [`5e53467`](https://github.com/eea/ied-backend/commit/5e53467b006e39f568080da7ac1c2668c926c5c8)]
+
+## [6.1.4-31](https://github.com/eea/ied-backend/releases/tag/6.1.4-31) - 2026-06-29T23:33:33Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-7 
+
+##### eeacms/plone-backend:[6.1.4-7](https://github.com/eea/plone-backend/releases/tag/6.1.4-7)
+###### Dependency updates
+
+###### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 5.5 ~ 6.0
+
+* Feature: Add IGeoCoverageField marker interface on geo_coverage field
+ for scoped serializer adapter registration in eea.volto.policy
+ [avoinea - refs #296992]
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 3.0 ~ 4.0
+
+* Feature: Add grouped geographic coverage helper methos
+ [tedw87 - refs #296992]
+* Change: Drop Python 2.7 and Plone 4 support.
+ [avoinea - refs #296992]
+* Fix: Replace lossy latin-1 encoding with explicit PATH_SEPARATOR stripping
+ in taxonomy value normalization
+ [avoinea - refs #296992]
+* Feature: Add RAM caching (plone.memoize) to geotags, biotags and country
+ mappings taxonomy parsing
+ [avoinea - refs #296992]
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 12.7 ~ 13.0
+
+* Feature: Scope geo_coverage serializer to IGeoCoverageField marker interface
+ instead of all JSON fields. Add eea.geolocation as explicit dependency.
+ [avoinea - refs #296992]
+* Feature: Serialize grouped geographic coverage
+ [tedw87 - refs #296992]
+##### eeacms/plone-backend:[6.1.4-6](https://github.com/eea/plone-backend/releases/tag/6.1.4-6)
+###### Dependency updates
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.8 ~ 3.0
+
+* New: Add EEA40 member states group (EEA38 + Ukraine + Moldova) to
+ geotags taxonomy. Includes upgrade step for existing sites and
+ updated VDEX profile for new installations.
+ [avoinea - refs #304772]
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+
+## [6.1.4-30](https://github.com/eea/ied-backend/releases/tag/6.1.4-30) - 2026-06-26T23:37:55Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-7 
+
+##### eeacms/plone-backend:[6.1.4-7](https://github.com/eea/plone-backend/releases/tag/6.1.4-7)
+###### Dependency updates
+
+###### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 5.5 ~ 6.0
+
+* Feature: Add IGeoCoverageField marker interface on geo_coverage field
+ for scoped serializer adapter registration in eea.volto.policy
+ [avoinea - refs #296992]
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 3.0 ~ 4.0
+
+* Feature: Add grouped geographic coverage helper methos
+ [tedw87 - refs #296992]
+* Change: Drop Python 2.7 and Plone 4 support.
+ [avoinea - refs #296992]
+* Fix: Replace lossy latin-1 encoding with explicit PATH_SEPARATOR stripping
+ in taxonomy value normalization
+ [avoinea - refs #296992]
+* Feature: Add RAM caching (plone.memoize) to geotags, biotags and country
+ mappings taxonomy parsing
+ [avoinea - refs #296992]
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 12.7 ~ 13.0
+
+* Feature: Scope geo_coverage serializer to IGeoCoverageField marker interface
+ instead of all JSON fields. Add eea.geolocation as explicit dependency.
+ [avoinea - refs #296992]
+* Feature: Serialize grouped geographic coverage
+ [tedw87 - refs #296992]
+##### eeacms/plone-backend:[6.1.4-6](https://github.com/eea/plone-backend/releases/tag/6.1.4-6)
+###### Dependency updates
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.8 ~ 3.0
+
+* New: Add EEA40 member states group (EEA38 + Ukraine + Moldova) to
+ geotags taxonomy. Includes upgrade step for existing sites and
+ updated VDEX profile for new installations.
+ [avoinea - refs #304772]
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+
+## [6.1.4-29](https://github.com/eea/ied-backend/releases/tag/6.1.4-29) - 2026-06-25T16:09:10Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-7 
+
+##### eeacms/plone-backend:[6.1.4-7](https://github.com/eea/plone-backend/releases/tag/6.1.4-7)
+###### Dependency updates
+
+###### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 5.5 ~ 6.0
+
+* Feature: Add IGeoCoverageField marker interface on geo_coverage field
+ for scoped serializer adapter registration in eea.volto.policy
+ [avoinea - refs #296992]
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 3.0 ~ 4.0
+
+* Feature: Add grouped geographic coverage helper methos
+ [tedw87 - refs #296992]
+* Change: Drop Python 2.7 and Plone 4 support.
+ [avoinea - refs #296992]
+* Fix: Replace lossy latin-1 encoding with explicit PATH_SEPARATOR stripping
+ in taxonomy value normalization
+ [avoinea - refs #296992]
+* Feature: Add RAM caching (plone.memoize) to geotags, biotags and country
+ mappings taxonomy parsing
+ [avoinea - refs #296992]
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 12.7 ~ 13.0
+
+* Feature: Scope geo_coverage serializer to IGeoCoverageField marker interface
+ instead of all JSON fields. Add eea.geolocation as explicit dependency.
+ [avoinea - refs #296992]
+* Feature: Serialize grouped geographic coverage
+ [tedw87 - refs #296992]
+##### eeacms/plone-backend:[6.1.4-6](https://github.com/eea/plone-backend/releases/tag/6.1.4-6)
+###### Dependency updates
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.8 ~ 3.0
+
+* New: Add EEA40 member states group (EEA38 + Ukraine + Moldova) to
+ geotags taxonomy. Includes upgrade step for existing sites and
+ updated VDEX profile for new installations.
+ [avoinea - refs #304772]
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+
+## [6.1.4-28](https://github.com/eea/ied-backend/releases/tag/6.1.4-28) - 2026-06-24T23:36:13Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-6 
+
+##### eeacms/plone-backend:[6.1.4-6](https://github.com/eea/plone-backend/releases/tag/6.1.4-6)
+###### Dependency updates
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.8 ~ 3.0
+
+* New: Add EEA40 member states group (EEA38 + Ukraine + Moldova) to
+ geotags taxonomy. Includes upgrade step for existing sites and
+ updated VDEX profile for new installations.
+ [avoinea - refs #304772]
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+
+## [6.1.4-27](https://github.com/eea/ied-backend/releases/tag/6.1.4-27) - 2026-06-24T17:06:42Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-6 
+
+##### eeacms/plone-backend:[6.1.4-6](https://github.com/eea/plone-backend/releases/tag/6.1.4-6)
+###### Dependency updates
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.8 ~ 3.0
+
+* New: Add EEA40 member states group (EEA38 + Ukraine + Moldova) to
+ geotags taxonomy. Includes upgrade step for existing sites and
+ updated VDEX profile for new installations.
+ [avoinea - refs #304772]
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+
+## [6.1.4-26](https://github.com/eea/ied-backend/releases/tag/6.1.4-26) - 2026-06-23T23:33:18Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-6 
+
+##### eeacms/plone-backend:[6.1.4-6](https://github.com/eea/plone-backend/releases/tag/6.1.4-6)
+###### Dependency updates
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.8 ~ 3.0
+
+* New: Add EEA40 member states group (EEA38 + Ukraine + Moldova) to
+ geotags taxonomy. Includes upgrade step for existing sites and
+ updated VDEX profile for new installations.
+ [avoinea - refs #304772]
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+
+## [6.1.4-25](https://github.com/eea/ied-backend/releases/tag/6.1.4-25) - 2026-06-22T23:41:27Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-6 
+
+##### eeacms/plone-backend:[6.1.4-6](https://github.com/eea/plone-backend/releases/tag/6.1.4-6)
+###### Dependency updates
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.8 ~ 3.0
+
+* New: Add EEA40 member states group (EEA38 + Ukraine + Moldova) to
+ geotags taxonomy. Includes upgrade step for existing sites and
+ updated VDEX profile for new installations.
+ [avoinea - refs #304772]
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+
+## [6.1.4-24](https://github.com/eea/ied-backend/releases/tag/6.1.4-24) - 2026-06-21T23:45:26Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-6 
+
+##### eeacms/plone-backend:[6.1.4-6](https://github.com/eea/plone-backend/releases/tag/6.1.4-6)
+###### Dependency updates
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.8 ~ 3.0
+
+* New: Add EEA40 member states group (EEA38 + Ukraine + Moldova) to
+ geotags taxonomy. Includes upgrade step for existing sites and
+ updated VDEX profile for new installations.
+ [avoinea - refs #304772]
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+
+## [6.1.4-23](https://github.com/eea/ied-backend/releases/tag/6.1.4-23) - 2026-06-20T23:38:41Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-6 
+
+##### eeacms/plone-backend:[6.1.4-6](https://github.com/eea/plone-backend/releases/tag/6.1.4-6)
+###### Dependency updates
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.8 ~ 3.0
+
+* New: Add EEA40 member states group (EEA38 + Ukraine + Moldova) to
+ geotags taxonomy. Includes upgrade step for existing sites and
+ updated VDEX profile for new installations.
+ [avoinea - refs #304772]
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+
+## [6.1.4-22](https://github.com/eea/ied-backend/releases/tag/6.1.4-22) - 2026-06-18T23:43:28Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-6 
+
+##### eeacms/plone-backend:[6.1.4-6](https://github.com/eea/plone-backend/releases/tag/6.1.4-6)
+###### Dependency updates
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.8 ~ 3.0
+
+* New: Add EEA40 member states group (EEA38 + Ukraine + Moldova) to
+ geotags taxonomy. Includes upgrade step for existing sites and
+ updated VDEX profile for new installations.
+ [avoinea - refs #304772]
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+
+## [6.1.4-21](https://github.com/eea/ied-backend/releases/tag/6.1.4-21) - 2026-06-18T20:29:31Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-6 
+
+##### eeacms/plone-backend:[6.1.4-6](https://github.com/eea/plone-backend/releases/tag/6.1.4-6)
+###### Dependency updates
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.8 ~ 3.0
+
+* New: Add EEA40 member states group (EEA38 + Ukraine + Moldova) to
+ geotags taxonomy. Includes upgrade step for existing sites and
+ updated VDEX profile for new installations.
+ [avoinea - refs #304772]
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+
+## [6.1.4-20](https://github.com/eea/ied-backend/releases/tag/6.1.4-20) - 2026-06-18T19:32:02Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-6 
+
+##### eeacms/plone-backend:[6.1.4-6](https://github.com/eea/plone-backend/releases/tag/6.1.4-6)
+###### Dependency updates
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.8 ~ 3.0
+
+* New: Add EEA40 member states group (EEA38 + Ukraine + Moldova) to
+ geotags taxonomy. Includes upgrade step for existing sites and
+ updated VDEX profile for new installations.
+ [avoinea - refs #304772]
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+
+## [6.1.4-19](https://github.com/eea/ied-backend/releases/tag/6.1.4-19) - 2026-06-18T08:32:03Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-6 
+
+##### eeacms/plone-backend:[6.1.4-6](https://github.com/eea/plone-backend/releases/tag/6.1.4-6)
+###### Dependency updates
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.8 ~ 3.0
+
+* New: Add EEA40 member states group (EEA38 + Ukraine + Moldova) to
+ geotags taxonomy. Includes upgrade step for existing sites and
+ updated VDEX profile for new installations.
+ [avoinea - refs #304772]
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+
+## [6.1.4-18](https://github.com/eea/ied-backend/releases/tag/6.1.4-18) - 2026-06-18T00:47:12Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-6 
+
+##### eeacms/plone-backend:[6.1.4-6](https://github.com/eea/plone-backend/releases/tag/6.1.4-6)
+###### Dependency updates
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.8 ~ 3.0
+
+* New: Add EEA40 member states group (EEA38 + Ukraine + Moldova) to
+ geotags taxonomy. Includes upgrade step for existing sites and
+ updated VDEX profile for new installations.
+ [avoinea - refs #304772]
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+
+## [6.1.4-17](https://github.com/eea/ied-backend/releases/tag/6.1.4-17) - 2026-06-16T23:38:45Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-5 
+
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+
+## [6.1.4-16](https://github.com/eea/ied-backend/releases/tag/6.1.4-16) - 2026-06-15T23:40:42Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-5 
+
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+
+## [6.1.4-15](https://github.com/eea/ied-backend/releases/tag/6.1.4-15) - 2026-06-13T23:30:20Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-5 
+
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+
+## [6.1.4-14](https://github.com/eea/ied-backend/releases/tag/6.1.4-14) - 2026-06-12T23:29:50Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-5 
+
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+
+## [6.1.4-13](https://github.com/eea/ied-backend/releases/tag/6.1.4-13) - 2026-06-11T23:34:22Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-5 
+
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+
+## [6.1.4-12](https://github.com/eea/ied-backend/releases/tag/6.1.4-12) - 2026-06-10T23:36:29Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-5 
+
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+
+## [6.1.4-11](https://github.com/eea/ied-backend/releases/tag/6.1.4-11) - 2026-06-09T23:42:35Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-5 
+
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.7 ~ 12.8
+
+* Fix: return 404 from ``@connector-data`` for content without a connector
+  data provider instead of raising ``ValueError``
+  [dobri1408]
+
+
+## [6.1.4-10](https://github.com/eea/ied-backend/releases/tag/6.1.4-10) - 2026-06-07T23:40:12Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-5 
+
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+
+## [6.1.4-9](https://github.com/eea/ied-backend/releases/tag/6.1.4-9) - 2026-06-06T23:39:52Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-5 
+
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+
+## [6.1.4-8](https://github.com/eea/ied-backend/releases/tag/6.1.4-8) - 2026-06-05T23:39:30Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-5 
+
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+
+## [6.1.4-7](https://github.com/eea/ied-backend/releases/tag/6.1.4-7) - 2026-06-04T23:35:12Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-5 
+
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+
+## [6.1.4-6](https://github.com/eea/ied-backend/releases/tag/6.1.4-6) - 2026-06-04T09:30:24Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-4 ~ 6.1.4-5 
+
+##### eeacms/plone-backend:[6.1.4-5](https://github.com/eea/plone-backend/releases/tag/6.1.4-5)
+###### Internal
+
+- Add zodbpack configuration for RelStorage - [dobri1408 - [`16651a2`](https://github.com/eea/plone-backend/commit/16651a2e6890173e965330b89f4540232c9febed)]
+- Add zodbpack.conf to Dockerfile - [dobri1408 - [`1cdbfc6`](https://github.com/eea/plone-backend/commit/1cdbfc61b64b485227f3e2bb290b7c5d065da760)]
+
+
 ## [6.1.4-5](https://github.com/eea/ied-backend/releases/tag/6.1.4-5) - 2026-05-27T00:39:53Z
 
 ### Plone
