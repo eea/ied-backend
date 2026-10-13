@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.1.4-79](https://github.com/eea/ied-backend/releases/tag/6.1.4-79) - 2026-10-13T23:38:57Z
+
+### Dependency updates
+
+##### [eea.api.versions](https://github.com/eea/eea.api.versions/releases): 1.4 ~ 1.5
+
+* Change: fix: sort versions by effective date instead of creation date - refs #309424
+  [ana-oprea]
+
+
 ## [6.1.4-78](https://github.com/eea/ied-backend/releases/tag/6.1.4-78) - 2026-10-02T00:57:54Z
 
 ### Plone
