@@ -1,6 +1,32 @@
 # Changelog
 
 
+## [6.1.4-80](https://github.com/eea/ied-backend/releases/tag/6.1.4-80) - 2026-10-30T00:40:33Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-23 ~ 6.1.4-24 
+
+##### eeacms/plone-backend:[6.1.4-24](https://github.com/eea/plone-backend/releases/tag/6.1.4-24)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 14.1 ~ 14.2
+
+* Feature: enrich serialized internal Image blocks with the permission-safe
+ live Image title, lazily classify legacy alt provenance, and remove the
+ transient title again during deserialization (issue #305021).
+ [razvanMiu]
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 14.1 ~ 14.2
+
+* Feature: enrich serialized internal Image blocks with the permission-safe
+  live Image title, lazily classify legacy alt provenance, and remove the
+  transient title again during deserialization (issue #305021).
+  [razvanMiu]
+
+
 ## [6.1.4-79](https://github.com/eea/ied-backend/releases/tag/6.1.4-79) - 2026-10-13T23:38:57Z
 
 ### Dependency updates
